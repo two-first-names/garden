@@ -1,0 +1,25 @@
+---
+navOptions:
+  includeSelf: false
+---
+{% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, navOptions) %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/index.css">
+    <title>{{ title }}</title>
+  </head>
+  <body>
+    <nav>
+      {%- for entry in navPages %}
+        <a href="{{entry.url}}">{{entry.key}}</a> /
+      {% endfor -%}
+        <a href="{{page.url}}">{{eleventyNavigation.key}}</a>
+    </nav>
+    <main>
+      {{ content | safe }}
+    </main>
+  </body>
+</html>

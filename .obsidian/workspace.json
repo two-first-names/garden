@@ -21,14 +21,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "me.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "b9ab52a29340a504",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "about.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "about.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "about.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "about.md"
               }
             }
           }
@@ -142,8 +154,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,13 +166,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5c39a483e18d3251",
+  "active": "b9ab52a29340a504",
   "lastOpenFiles": [
-    "eleventy.config.js",
-    "_site/index.html",
-    "_site/Test/index.html",
-    "_site/Test",
-    "_site",
-    "index.md"
+    "_site/ttrpg/dnd/murka/index.html",
+    "_site/ttrpg/dnd/murka",
+    "node_modules/fsevents",
+    "ttrpg/dnd/murka/index.md",
+    "ttrpg/dnd/murka",
+    "ttrpg/dnd/index.md",
+    "ttrpg/index.md",
+    "about.md",
+    "index.md",
+    "me.md",
+    "_site/Manual Of Me/index.html",
+    "_site/Manual Of Me",
+    "_site/Professional Things/index.html",
+    "_site/Professional Things",
+    "node_modules/@photogabble/eleventy-plugin-interlinker/index.d.ts",
+    "node_modules/@photogabble/eleventy-plugin-interlinker/README.md",
+    "node_modules/@photogabble/eleventy-plugin-interlinker/package.json",
+    "node_modules/@photogabble/eleventy-plugin-interlinker/src/wikilink-parser.js",
+    "node_modules/argparse/CHANGELOG.md",
+    "ttrpgs/dnd/index.md",
+    "ttrpgs/index.md",
+    "node_modules/@11ty/eleventy-navigation/README.md",
+    "node_modules/@11ty/eleventy-navigation/sample/no-nav.md",
+    "node_modules/@11ty/eleventy-navigation/sample/no-key.md",
+    "node_modules/@11ty/eleventy-navigation/sample/mammals.md",
+    "node_modules/@11ty/eleventy-navigation/sample/humans.md",
+    "node_modules/@11ty/eleventy-navigation/sample/bats.md"
   ]
 }

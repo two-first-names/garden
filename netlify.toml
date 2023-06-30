@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/manual-of-me"
+  to = "/me"
+  status = 200
