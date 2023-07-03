@@ -1,4 +1,10 @@
 [[redirects]]
-  from = "/manual-of-me"
-  to = "/me"
-  status = 200
+  from   = "/manual-of-me"
+  to     = "/me"
+  status = 302
+
+[[redirects]]
+  from   = "https://me.engiqueer.net/*"
+  to     = "/me"
+  status = 302
+  force  = true
